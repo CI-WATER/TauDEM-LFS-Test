@@ -21,4 +21,5 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 *.tif filter=lfs diff=lfs merge=lfs -text
+TestSuite/ReferenceResult/ filter=lfs diff=lfs merge=lfs -text
 TestSuite/ReferenceResult/*	filter=lfs diff=lfs merge=lfs -crlf
